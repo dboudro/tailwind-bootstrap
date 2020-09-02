@@ -1,4 +1,4 @@
-*installation*
+	*installation*
 
 npm init -y              *   makes package json *
 
@@ -16,4 +16,12 @@ make tailwind.css file
 package.json 
 "build": "postcss css/tailwind.css -o public/build/tailwind.css"
 
+npm run build
+
 live-server
+
+
+
+*Chris Demo*
+laravel new
+php artisan serve  *artisan is CLI* *Composer is package manager*
