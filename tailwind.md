@@ -25,3 +25,13 @@ live-server
 *Chris Demo*
 laravel new
 php artisan serve  *artisan is CLI* *Composer is package manager*
+
+**justify-content** - horizontal 
+**align-items** - vertical
+ - used on parent flex container 
+
+ <div class="flex justify-between"></div>
+
+ **align-content** requires flex-wrap. aligns all content of the flex container in the container. 
+
+  <div class="flex flex-wrap content-end"></div>
