@@ -14,7 +14,7 @@ make tailwind.css file
 ```
 
 package.json 
-"build": "postcss css/tailwind.css -o public/build/tailwind.css"
+"build": "postcss css/tailwind.css -o build/tailwind.css"
 
 npm run build
 
