@@ -4,11 +4,21 @@ npm init -y              *   makes package json *
 
 npm install tailwindcss postcss-cli autoprefixer
 npx tailwind init
-new file: postcss.config.js in root
-make postcss.config.js file
 
-make tailwind.css file 
-``` @tailwind base;
+touch postcss.config.js         
+```
+module.exports = {
+	plugins: [
+	require('tailwindcss'),
+	require('autoprefixer')
+	]
+}
+```
+
+touch css/tailwind.css  
+
+``` 
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
@@ -17,9 +27,6 @@ package.json
 "build": "postcss css -d build"
 
 npm run build
-
-live-server
-
 
 
 *Chris Demo*
