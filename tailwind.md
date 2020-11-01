@@ -24,7 +24,7 @@ touch css/tailwind.css
 ```
 
 package.json 
-"build": "postcss css -d build"
+"build": "postcss css/tailwind.css -o build/tailwind.css"
 
 npm run build
 
